@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Santa Pizza - Contato</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Santa <span>Pizza </span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="nossahistoria.html">Nossa História</a></li>
+        <li><a href="nossoambiente.html">Nosso ambiente</a></li>
+        <li><a href="nossaequipe.html">Nossa Equipe</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">
+          <a href="https://pedido.anota.ai/" target="_blank">
+            <i class="ri-shopping-cart-line"></i>
+          </a>
+        </button>
+      </div>
+    </nav>
+
+    <section class="section__container contact__container">
+      <h2 class="section__header">Entre em Contato</h2>
+      <p class="section__description">
+        Tem alguma dúvida, sugestão ou reclamação? Preencha o formulário abaixo e entraremos em contato!
+      </p>
+      <form id="contactForm" class="contact__form">
+        <div class="form__group">
+          <label for="name">Nome *</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite seu nome"
+            required
+          />
+        </div>
+        <div class="form__group">
+          <label for="email">E-mail *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
+        </div>
+        <div class="form__group">
+          <label for="phone">Telefone</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Digite seu telefone"
+          />
+        </div>
+        <div class="form__group">
+          <label for="message">Mensagem *</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Digite sua mensagem"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="#" class="logo">Santa<span>Pizza</span></a>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="nossahistoria.html">Nossa História</a></li>
+            <li><a href="nossoambiente.html">Nosso ambiente</a></li>
+            <li><a href="nossaequipe.html">Nossa Equipe</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul class="socials">
+            <li>
+              <a href="https://www.facebook.com/santapizzapp" target="_blank">
+                <i class="ri-facebook-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B5518981875868&text&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                <i class="ri-whatsapp-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/santapizzapp/" target="_blank">
+                <i class="ri-instagram-fill"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Santa Pizza.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
