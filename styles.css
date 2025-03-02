@@ -548,17 +548,8 @@ footer {
     justify-content: flex-start;
   }
 
-  .popular__container .section__header {
-    text-align: left;
-  }
-
-  .popular__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .discover__container :is(.section__header, .section__description) {
-    text-align: left;
-    max-width: 600px;
+    text-align: center;
   }
 
   .discover__card {
@@ -600,7 +591,7 @@ footer {
   }
 
   .banner__content :is(.section__header, .section__description) {
-    text-align: left;
+    text-align: center;
   }
 
   .footer__container {
